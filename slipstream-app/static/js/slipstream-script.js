@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', (event) => {
   alert('Hello World');
 
-  const napis = document.getElementById('napis');
+  const napis = document.getElementById('click');
   napis.addEventListener('click', () => {
     // our sip message
     var sipmsg = 'REGISTER sip:192.168.1.2:80;transport=TCP SIP/2.0\r\n' +
